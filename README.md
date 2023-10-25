@@ -6,7 +6,9 @@
 
 Try out the Pomodoro Technique with the Trilium Notes widget. Don't forget to take breaks for yourself!
 
-Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with it.
+Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with
+it.
+
 # ScreenShots
 
 ## Overall Look (Subject to Change)
@@ -33,10 +35,9 @@ English
 
 ![english](docs/ui english.png)
 
-简体中文
+简体中文 Chinese Simplified
 
 ![chinese](docs/ui chinese.png)
-
 
 # How to install
 
@@ -71,4 +72,7 @@ prolonged periods of sitting.
 Hopefully, this can help prevent others from developing lumbar disc herniation.
 
 # Donation
+
+Hello! If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
+
 [![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
