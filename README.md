@@ -9,15 +9,15 @@ Try out the Pomodoro Technique with the Trilium Notes widget. Don't forget to ta
 Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with it.
 # ScreenShots
 
-Overall Look (Subject to Change)
+## Overall Look (Subject to Change)
 
 ![overall look](docs/at a glance.gif)
 
-Break Time!
+## Break Time!
 
 ![break](docs/take a break.gif)
 
-Automatic Notifications
+## System Notifications
 
 * Windows:
 
@@ -26,6 +26,16 @@ Automatic Notifications
 * Linux desktop:
 
 ![linux](docs/notification linu.gif)
+
+## Multi-language support
+
+English
+
+![english](docs/ui english.png)
+
+简体中文
+
+![chinese](docs/ui chinese.png)
 
 
 # How to install
