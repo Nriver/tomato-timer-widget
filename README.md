@@ -1,4 +1,6 @@
-# tomato-timer-widget
+# tomato-timer-widget :)
+
+Please stand up and stretch your body for a while if you see this :)
 
 [![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
 
