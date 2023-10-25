@@ -1,5 +1,7 @@
 # tomato-timer-widget
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
+
 A pomodoro-timer widget for Trilium Notes. Take a break for your self :)
 
 Check [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you do not know what it is.
