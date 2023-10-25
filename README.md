@@ -13,31 +13,31 @@ it.
 
 ## Overall Look (Subject to Change)
 
-![overall look](docs/at a glance.gif)
+![overall look](docs/at%20a%20glance.gif)
 
 ## Break Time!
 
-![break](docs/take a break.gif)
+![break](docs/take%20a%20break.gif)
 
 ## System Notifications
 
 * Windows:
 
-![windows](docs/notification windows.gif)
+![windows](docs/notification%20windows.gif)
 
 * Linux desktop:
 
-![linux](docs/notification linu.gif)
+![linux](docs/notification%20linux.gif)
 
 ## Multi-language support
 
 English
 
-![english](docs/ui english.png)
+![english](docs/ui%20english.png)
 
 简体中文 Chinese Simplified
 
-![chinese](docs/ui chinese.png)
+![chinese](docs/ui%20chinese.png)
 
 # How to install
 
