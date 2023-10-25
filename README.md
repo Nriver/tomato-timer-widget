@@ -1,10 +1,32 @@
 # tomato-timer-widget
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
+[![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
 
-A pomodoro-timer widget for Trilium Notes. Take a break for your self :)
+**Enhance Your Productivity**
 
-Check [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you do not know what it is.
+Try out the Pomodoro Technique with the Trilium Notes widget. Don't forget to take breaks for yourself!
+
+Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with it.
+# ScreenShots
+
+Overall Look (Subject to Change)
+
+![overall look](docs/at a glance.gif)
+
+Break Time!
+
+![break](docs/take a break.gif)
+
+Automatic Notifications
+
+* Windows:
+
+![windows](docs/notification windows.gif)
+
+* Linux desktop:
+
+![linux](docs/notification linu.gif)
+
 
 # How to install
 
@@ -37,3 +59,6 @@ using this timer actively during my treatment. I believe it's important to take 
 prolonged periods of sitting.
 
 Hopefully, this can help prevent others from developing lumbar disc herniation.
+
+# Donation
+[![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
