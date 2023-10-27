@@ -75,6 +75,18 @@ prolonged periods of sitting.
 
 Hopefully, this can help prevent others from developing lumbar disc herniation.
 
+# About the audio files
+
+The audio used in this project is obtained from Pixabay, a vibrant community of creators sharing royalty-free images, video, audio, and other media. I appreciate their contribution and the availability of this resource. Below is the information related to the audio content:
+
+https://pixabay.com/sound-effects/button-124476/
+
+https://pixabay.com/sound-effects/ding-47489/ 
+
+This content is used in accordance with the Pixabay Content License, which allows for free use, modification, and adaptation of the content into new works. However, certain restrictions apply, and it is the user's responsibility to adhere to the terms of the license. Please refer to the full Content License for more details.
+
+I respect the work of creators and encourage others to do the same.
+
 # Donation
 
 Hello! If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
