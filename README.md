@@ -1,5 +1,7 @@
 # tomato-timer-widget :)
 
+[中文说明](README_CN.md)
+
 Please stand up and stretch your body for a while if you see this :)
 
 [![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
@@ -77,4 +79,11 @@ Hopefully, this can help prevent others from developing lumbar disc herniation.
 
 Hello! If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
 
+Ko-fi:  
 [![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
+
+Alipay:  
+![Alipay](https://github.com/Nriver/trilium-translation/raw/main/docs/alipay.png)
+
+Wechat Pay:  
+![Wechat Pay](https://github.com/Nriver/trilium-translation/raw/main/docs/wechat_pay.png)
