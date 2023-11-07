@@ -13,7 +13,7 @@ const i18n = key => translations.trans[config.lang][key];
 
 const TPL = `
 <audio id="tomatoButtonSound" src="custom/sound/tomatoButton.mp3"></audio>
-<audio id="tomtatoAlarmSound" src="custom/sound/tomatoAlarm.mp3"></audio>
+<audio id="tomatoAlarmSound" src="custom/sound/tomatoAlarm.mp3"></audio>
 
 <div id="tomato-bar" class="tomato">
     <center><div id="status">` + i18n('working') + `</div></center>
