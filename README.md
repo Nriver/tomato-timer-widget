@@ -19,6 +19,12 @@ it.
 
 ![overall look](docs/at%20a%20glance.gif)
 
+## Work with zen mode
+
+I recently find out that this tomato timer can work with [Zen Mode](https://github.com/Nriver/awesome-trilium/issues/44) very well. You should try it :)
+
+![work with zen mode](docs/work%20with%20zen%20mode.png)
+
 ## Break Time!
 
 ![break](docs/take%20a%20break.gif)

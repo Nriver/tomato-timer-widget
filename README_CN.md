@@ -16,6 +16,12 @@ Trilium Notes的番茄工作法小部件。别忘了给自己休息的时间！
 
 ![整体外观](docs/at%20a%20glance.gif)
 
+## 在禅模式下工作
+
+我最近发现这个番茄计时器可以与[禅模式](https://github.com/Nriver/awesome-trilium/issues/44)非常好地配合。你应该试试它 :)
+
+![与禅模式配合工作](docs/work%20with%20zen%20mode.png)
+
 ## 休息时间！
 
 ![休息](docs/take%20a%20break.gif)
