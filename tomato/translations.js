@@ -30,6 +30,21 @@ const trans = {
         takeBreakMessage: 'Take a break.',
         timeToDoSomething: 'Time to do something.'
     },
+    'de': {
+        working: 'Arbeiten',
+        resting: 'Pause',
+        doWork: 'Arbeit erledigen',
+        takeBreak: 'Pause machen',
+        start: 'Start',
+        pause: 'Pause',
+        reset: 'Zurücksetzen',
+        restNotificationTitle: 'Entspannen Sie sich',
+        restNotificationBody: 'Zeit für eine Pause~',
+        workNotificationTitle: 'Gut ausgeruht?',
+        workNotificationBody: "Lass uns etwas Arbeit erledigen",
+        takeBreakMessage: 'Mache eine Pause.',
+        timeToDoSomething: 'Zeit, etwas zu tun.'
+    },
 };
 
 module.exports = {
