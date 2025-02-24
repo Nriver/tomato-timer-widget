@@ -41,6 +41,9 @@ const styles = `
 #status {
     font-size: 18px;
     width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
 }
 
 #timer {
