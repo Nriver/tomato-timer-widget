@@ -40,7 +40,7 @@ const styles = `
 
 #status {
     font-size: 18px;
-    width: 80px;
+    width: auto;
 }
 
 #timer {
