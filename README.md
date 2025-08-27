@@ -1,4 +1,4 @@
-# tomato-timer-widget :)
+# 🍅 tomato-timer-widget :)
 
 [中文说明](README_CN.md)
 
@@ -6,30 +6,30 @@ Please stand up and stretch your body for a while if you see this :)
 
 [![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
 
-**Enhance Your Productivity**
+**✨ Enhance Your Productivity**
 
 Try out the Pomodoro Technique with the Trilium Notes widget. Don't forget to take breaks for yourself!
 
 Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with
 it.
 
-# ScreenShots
+# 📸 ScreenShots
 
-## Overall Look (Subject to Change)
+## 🖼️ Overall Look (Subject to Change)
 
 ![overall look](docs/at%20a%20glance.gif)
 
-## Work with zen mode
+## 🧘 Work with zen mode
 
 I recently find out that this tomato timer can work with [Zen Mode](https://github.com/Nriver/awesome-trilium/issues/44) very well. You should try it :)
 
 ![work with zen mode](docs/work%20with%20zen%20mode.png)
 
-## Break Time!
+## ⏸️ Break Time!
 
 ![break](docs/take%20a%20break.gif)
 
-## System Notifications
+## 🔔 System Notifications
 
 * Windows:
 
@@ -39,7 +39,7 @@ I recently find out that this tomato timer can work with [Zen Mode](https://gith
 
 ![linux](docs/notification%20linux.gif)
 
-## Multi-language support
+## 🌐 Multi-language support
 
 English
 
@@ -49,7 +49,7 @@ English
 
 ![chinese](docs/ui%20chinese.png)
 
-# How to install
+# 📥 How to install
 
 1. Download the zip file from [release page](https://github.com/Nriver/tomato-timer-widget/releases).
 2. Right click note tree in Trilium and click import, uncheck `Safe Import`.
@@ -57,14 +57,14 @@ English
 4. Open any note, you will see a timer bar underneath.
 5. Have fun.
 
-# Hints
+# 💡 Hints
 
 1. You can tweak configs in the `config` subnote.
 2. i18n support, check the `translations` subnote for the translated texts.
 3. There will be a notification tells you to rest :)
 4. Buttons comes with sound effects so does the notification alarm.
 
-# Why I made this?
+# 🤔 Why I made this?
 
 I was diagnosed with lumbar disc herniation in October 2023. According to the doctors, the herniation is huge. Although
 the chief physician strongly suggested that I undergo surgery immediately, I refused it, at least for now.
@@ -81,7 +81,7 @@ prolonged periods of sitting.
 
 Hopefully, this can help prevent others from developing lumbar disc herniation.
 
-# About the audio files
+# 🎵 About the audio files
 
 The audio used in this project is obtained from Pixabay, a vibrant community of creators sharing royalty-free images, video, audio, and other media. I appreciate their contribution and the availability of this resource. Below is the information related to the audio content:
 
@@ -93,7 +93,7 @@ This content is used in accordance with the Pixabay Content License, which allow
 
 I respect the work of creators and encourage others to do the same.
 
-# Donation
+# 💖 Donation
 
 Hello! If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
 
@@ -105,3 +105,7 @@ Alipay:
 
 Wechat Pay:  
 ![Wechat Pay](https://github.com/Nriver/trilium-translation/raw/main/docs/wechat_pay.png)
+
+# 🙏 Thanks
+
+Thanks `Tinkerer` for donating 10.0 USD!

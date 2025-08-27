@@ -1,42 +1,42 @@
-# 番茄钟小部件 :)
+# 🍅 番茄钟小部件 :)
 
 如果你看到这个，请站起来伸展一下 :)
 
 [![在Ko-fi上支持我](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
 
-**提高你的工作效率**
+**✨ 提高你的工作效率**
 
-Trilium Notes的番茄工作法小部件。别忘了给自己休息的时间！
+Trilium Notes 的番茄工作法小部件。别忘了给自己休息的时间！
 
 如果你对番茄工作法不熟悉，可以参考[百度百科](https://baike.baidu.com/item/番茄工作法/6353502)了解更多信息。
 
-# 屏幕截图
+# 📸 屏幕截图
 
-## 整体外观（后续可能会有所变化）
+## 🖼️ 整体外观（后续可能会有所变化）
 
 ![整体外观](docs/at%20a%20glance.gif)
 
-## 在禅模式下工作
+## 🧘 在禅模式下工作
 
 我最近发现这个番茄计时器可以与[禅模式](https://github.com/Nriver/awesome-trilium/issues/44)非常好地配合。你应该试试它 :)
 
 ![与禅模式配合工作](docs/work%20with%20zen%20mode.png)
 
-## 休息时间！
+## 🍵 休息时间！
 
 ![休息](docs/take%20a%20break.gif)
 
-## 系统通知
+## 🔔 系统通知
 
 * Windows:
 
 ![Windows](docs/notification%20windows.gif)
 
-* Linux桌面:
+* Linux 桌面:
 
 ![Linux](docs/notification%20linux.gif)
 
-## 多语言支持
+## 🌐 多语言支持
 
 英语
 
@@ -46,44 +46,43 @@ Trilium Notes的番茄工作法小部件。别忘了给自己休息的时间！
 
 ![中文](docs/ui%20chinese.png)
 
-# 安装方法
+# 📥 安装方法
 
-1. 从[发布页面](https://github.com/Nriver/tomato-timer-widget/releases)下载zip文件。
-2. 在Trilium中右键单击笔记树，然后点击导入，取消选中“安全导入”。
-3. 重新启动Trilium Notes，或者使用`ctrl+r`重新加载界面。
+1. 从[发布页面](https://github.com/Nriver/tomato-timer-widget/releases)下载 zip 文件。
+2. 在 Trilium 中右键单击笔记树，然后点击导入，取消选中“安全导入”。
+3. 重新启动 Trilium Notes，或者使用 `ctrl+r` 重新加载界面。
 4. 打开任何笔记，你会看到一个计时器条。
 5. 祝你玩得愉快。
 
-# 提示
+# 💡 提示
 
-1. 你可以调整`config`子笔记中的配置。比如把语言`lang`改成 `cn` 再重启就是中文。
-2. 支持国际化，查看`translations`子笔记里有翻译文本。
+1. 你可以调整 `config` 子笔记中的配置。比如把语言 `lang` 改成 `cn` 再重启就是中文。
+2. 支持国际化，查看 `translations` 子笔记里有翻译文本。
 3. 会有通知提醒你休息 :)
 4. 按钮带有声音效果，还有通知闹铃音效。
 
-# 我为什么制作这个？
+# 🤔 我为什么制作这个？
 
-我在2023年10月被诊断出腰椎间盘突出。主治医生说突出情况很严重，属于巨大突出。尽管医生强烈建议我立即进行手术，但我拒绝了，至少暂时不希望手术。
+我在 2023 年 10 月被诊断出腰椎间盘突出。主治医生说突出情况很严重，属于巨大突出。尽管医生强烈建议我立即进行手术，但我拒绝了，至少暂时不希望手术。
 
-我目前正在积极接受保守治疗，希望能有所改善。我知道这是一场长期的战斗，需要采取很多措施。根据我的物理治疗师的建议，我应该每隔30分钟站起来伸展一下。后来我想到，[番茄工作法](https://en.wikipedia.org/wiki/Pomodoro_Technique)遵循类似的时间安排：25分钟工作，5分钟休息。这种方法与我的治疗计划完美契合。
+我目前正在积极接受保守治疗，希望能有所改善。我知道这是一场长期的战斗，需要采取很多措施。根据我的物理治疗师的建议，我应该每隔 30 分钟站起来伸展一下。后来我想到，[番茄工作法](https://en.wikipedia.org/wiki/Pomodoro_Technique)遵循类似的时间安排：25 分钟工作，5 分钟休息。这种方法与我的治疗计划完美契合。
 
-我整天都在使用Trilium Notes，所以就想着给它整一个番茄钟。在我的治疗过程中一直在积极使用这个计时器。我相信在长时间坐着之后，休息一下并休息身体是很重要的。
+我整天都在使用 Trilium Notes，所以就想着给它整一个番茄钟。在我的治疗过程中一直在积极使用这个计时器。我相信在长时间坐着之后，休息一下并休息身体是很重要的。
 
 希望这可以帮助防止其他人患上腰椎间盘突出。
 
-# 关于音频文件
+# 🎵 关于音频文件
 
-该项目中使用的音频来自Pixabay，这是一个充满活力的创作者社区，共享免版税的图像、视频、音频和其他媒体。感谢他们的贡献和这一资源的可用性。以下是与音频内容相关的信息：
+该项目中使用的音频来自 Pixabay，这是一个充满活力的创作者社区，共享免版税的图像、视频、音频和其他媒体。感谢他们的贡献和这一资源的可用性。以下是与音频内容相关的信息：
 
-https://pixabay.com/sound-effects/button-124476/
-
+https://pixabay.com/sound-effects/button-124476/  
 https://pixabay.com/sound-effects/ding-47489/
 
-此内容是根据Pixabay内容许可使用的，该许可允许对内容进行免费使用、修改和改编以创建新作品。但是，某些限制适用，并且用户有责任遵守许可条款。请查阅完整的内容许可协议以获取更多详细信息。
+此内容是根据 Pixabay 内容许可使用的，该许可允许对内容进行免费使用、修改和改编以创建新作品。但是，某些限制适用，并且用户有责任遵守许可条款。请查阅完整的内容许可协议以获取更多详细信息。
 
 我尊重创作者的工作，并鼓励他人也这样做。
 
-# 捐赠
+# 💖 捐赠
 
 你好！如果你喜欢我的作品，请考虑支持我。非常感谢你的支持。谢谢！
 
@@ -93,5 +92,9 @@ https://pixabay.com/sound-effects/ding-47489/
 微信:  
 ![Wechat Pay](https://github.com/Nriver/trilium-translation/raw/main/docs/wechat_pay.png)
 
-在Ko-fi上支持我:  
+在 Ko-fi 上支持我:  
 [![在Ko-fi上支持我](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
+
+# 🙏 感谢
+
+感谢 `Tinkerer` 赞助的 10.0 美元!
