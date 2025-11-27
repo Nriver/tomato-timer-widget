@@ -1,111 +1,39 @@
-# 🍅 tomato-timer-widget :)
+# 🍅 番茄钟小部件 
 
-[中文说明](README_CN.md)
+Trilium 的番茄钟插件在原作者基础上进行了改进
 
-Please stand up and stretch your body for a while if you see this :)
+1.允许控制显示/隐藏 
+2.美化ui
 
-[![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
+<video src="docs/演示.mp4" controls style="max-width: 100%; height: auto;">
+  您的浏览器不支持 video 标签。
+</video>
 
-**✨ Enhance Your Productivity**
 
-Try out the Pomodoro Technique with the Trilium Notes widget. Don't forget to take breaks for yourself!
 
-Learn more about the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) if you're unfamiliar with
-it.
+# 📥 安装方法
 
-# 📸 ScreenShots
+1. 从[发布页面](https://github.com/Userwei0418/tomato-timer-widget/releases)下载 zip 文件。
+2. 在 Trilium 中右键单击笔记树，然后点击导入，取消选中“安全导入”。
+3. 执行脚本“启动器”，将会在左侧边栏添加一个控制按钮，用于控制显示与隐藏。
+4. 重新启动 Trilium Notes，或者使用 `ctrl+r` 重新加载界面。
+5. 打开任何笔记，你会看到一个计时器条。
+6. 祝你玩得愉快。
 
-## 🖼️ Overall Look (Subject to Change)
+# 💡 提示
 
-![overall look](docs/at%20a%20glance.gif)
+1. 你可以调整 `config` 子笔记中的配置。比如把语言 `lang` 改成 `cn` 再重启就是中文。
+2. 支持国际化，查看 `translations` 子笔记里有翻译文本。
+3. 会有通知提醒你休息 :)
+4. 按钮带有声音效果，还有通知闹铃音效。
 
-## 🧘 Work with zen mode
+# 🎵 关于音频文件
 
-I recently find out that this tomato timer can work with [Zen Mode](https://github.com/Nriver/awesome-trilium/issues/44) very well. You should try it :)
+该项目中使用的音频来自 Pixabay，这是一个充满活力的创作者社区，共享免版税的图像、视频、音频和其他媒体。感谢他们的贡献和这一资源的可用性。以下是与音频内容相关的信息：
 
-![work with zen mode](docs/work%20with%20zen%20mode.png)
+https://pixabay.com/sound-effects/button-124476/  
+https://pixabay.com/sound-effects/ding-47489/
 
-## ⏸️ Break Time!
+此内容是根据 Pixabay 内容许可使用的，该许可允许对内容进行免费使用、修改和改编以创建新作品。但是，某些限制适用，并且用户有责任遵守许可条款。请查阅完整的内容许可协议以获取更多详细信息。
 
-![break](docs/take%20a%20break.gif)
-
-## 🔔 System Notifications
-
-* Windows:
-
-![windows](docs/notification%20windows.gif)
-
-* Linux desktop:
-
-![linux](docs/notification%20linux.gif)
-
-## 🌐 Multi-language support
-
-English
-
-![english](docs/ui%20english.png)
-
-简体中文 Chinese Simplified
-
-![chinese](docs/ui%20chinese.png)
-
-# 📥 How to install
-
-1. Download the zip file from [release page](https://github.com/Nriver/tomato-timer-widget/releases).
-2. Right click note tree in Trilium and click import, uncheck `Safe Import`.
-3. Restart Trilium Notes or use `ctrl+r` to reload the interface.
-4. Open any note, you will see a timer bar underneath.
-5. Have fun.
-
-# 💡 Hints
-
-1. You can tweak configs in the `config` subnote.
-2. i18n support, check the `translations` subnote for the translated texts.
-3. There will be a notification tells you to rest :)
-4. Buttons comes with sound effects so does the notification alarm.
-
-# 🤔 Why I made this?
-
-I was diagnosed with lumbar disc herniation in October 2023. According to the doctors, the herniation is huge. Although
-the chief physician strongly suggested that I undergo surgery immediately, I refused it, at least for now.
-
-I'm currently undergoing conservative treatment and hoping for improvement. I understand that this is a long-term battle
-and that there are many measures I need to take. According to my physical therapist, I should stand up and stretch every
-30 minutes after sitting. It occurred to me later that
-the [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) follows a similar schedule: 25 minutes of
-work followed by a 5-minute break. This approach aligns perfectly with my treatment plan.
-
-I use Trilium Notes throughout the day, so creating a Pomodoro timer for Trilium seemed like a natural idea. I've been
-using this timer actively during my treatment. I believe it's important to take breaks and rest your body after
-prolonged periods of sitting.
-
-Hopefully, this can help prevent others from developing lumbar disc herniation.
-
-# 🎵 About the audio files
-
-The audio used in this project is obtained from Pixabay, a vibrant community of creators sharing royalty-free images, video, audio, and other media. I appreciate their contribution and the availability of this resource. Below is the information related to the audio content:
-
-https://pixabay.com/sound-effects/button-124476/
-
-https://pixabay.com/sound-effects/ding-47489/ 
-
-This content is used in accordance with the Pixabay Content License, which allows for free use, modification, and adaptation of the content into new works. However, certain restrictions apply, and it is the user's responsibility to adhere to the terms of the license. Please refer to the full Content License for more details.
-
-I respect the work of creators and encourage others to do the same.
-
-# 💖 Donation
-
-Hello! If you appreciate my creations, kindly consider backing me. Your support is greatly appreciated. Thank you!
-
-Ko-fi:  
-[![Support Me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/nriver)
-
-Alipay:  
-![Alipay](https://github.com/Nriver/trilium-translation/raw/main/docs/alipay.png)
-
-Wechat Pay:  
-![Wechat Pay](https://github.com/Nriver/trilium-translation/raw/main/docs/wechat_pay.png)
-
-# 🙏 Thanks
-
-Thanks `Tinkerer` for donating 10.0 USD!
+我尊重创作者的工作，并鼓励他人也这样做。
