@@ -16,8 +16,10 @@ const TPL = `
 <audio id="tomatoAlarmSound" src="custom/sound/tomatoAlarm.mp3"></audio>
 
 <div id="tomato-bar" class="tomato">
-    <center><div id="status">` + i18n('working') + `</div></center>
-    <center><div id="timer">--:--</div></center>
+    <button id="showButton" style="display: none;">` + i18n('show') + `</button>
+    <button id="hideButton" style="display: none;">` + i18n('hide') + `</button>
+    <div id="status">` + i18n('working') + `</div>
+    <div id="timer">--:--</div>
     <button id="workButton">` + i18n('doWork') + `</button>
     <button id="restButton">` + i18n('takeBreak') + `</button>
     <button id="startButton">` + i18n('start') + `</button>
@@ -30,43 +32,63 @@ const styles = `
 #tomato-bar {
     display: flex;
     align-items: center;
-    gap: 4px;
-    padding: 4px;
+    gap: 8px;
+    padding: 6px 12px;
     border-top: 1px solid #555555;
     border-bottom: 1px solid #555555;
+    background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);
     contain: none;
     white-space: nowrap;
+    height: 40px;
 }
 
 #status {
-    font-size: 18px;
-    width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 12px;
     font-weight: bold;
+    color: #FF6347;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #timer {
-    font-size: 24px;
-    width: 70px;
+    font-size: 22px;
+    padding: 2px 10px;
     border: 2px solid #FF6347;
-    background-color: #transparent;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    color: #FF6347;
+    font-family: 'Courier New', monospace;
+    min-width: 60px;
+    white-space: nowrap;
 }
 
 .tomato button {
     background-color: #a52a2a;
     border-radius: 5px;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 8px 14px;
+    font-size: 12px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s;
     color: #ffffff;
+    font-weight: 500;
+    white-space: nowrap;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tomato button:hover {
     background-color: #800000;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.tomato button:active {
+    transform: translateY(0);
 }
 
 #workButton {
@@ -84,7 +106,6 @@ const styles = `
 #restButton:hover {
     background-color: #45a049;
 }
-
 `;
 
 var isInit = true;
@@ -135,6 +156,9 @@ class TomatoWidget extends api.NoteContextAwareWidget {
         const startButton = document.getElementById('startButton');
         const pauseButton = document.getElementById('pauseButton');
         const resetButton = document.getElementById('resetButton');
+        const hideButton = document.getElementById('hideButton');
+        const showButton = document.getElementById('showButton');
+        const tomatoBar = document.getElementById('tomato-bar');
         
         const workButton = document.getElementById('workButton');
         const restButton = document.getElementById('restButton');
@@ -255,6 +279,21 @@ class TomatoWidget extends api.NoteContextAwareWidget {
         workButton.addEventListener('click', workTimer);
         restButton.addEventListener('click', restTimer);
         
+        // 隐藏按钮点击事件
+        hideButton.addEventListener('click', () => {
+            playButtonSound();
+            localStorage.setItem('tomatoVisible', 'false');
+            tomatoBar.style.display = 'none';
+            api.showMessage(i18n('hidden'), 2000);
+        });
+        
+        // 显示按钮点击事件
+        showButton.addEventListener('click', () => {
+            playButtonSound();
+            localStorage.setItem('tomatoVisible', 'true');
+            tomatoBar.style.display = 'flex';
+            api.showMessage(i18n('shown'), 2000);
+        });
 
         // auto start timer when startup
         if (config.autoStartCountDown){

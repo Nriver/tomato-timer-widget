@@ -13,7 +13,11 @@ const trans = {
         workNotificationTitle: '休息好了吗?',
         workNotificationBody: "干点活吧",
         takeBreakMessage: '休息一会儿.',
-        timeToDoSomething: '该做点什么了.'
+        timeToDoSomething: '该做点什么了.',
+        hide: "隐藏",
+        show: "显示",
+        hidden: "已隐藏",
+        shown: "已显示"
     },
     'en': {
         working: 'Working',
@@ -28,22 +32,11 @@ const trans = {
         workNotificationTitle: 'Rest well?',
         workNotificationBody: "Let's do some work",
         takeBreakMessage: 'Take a break.',
-        timeToDoSomething: 'Time to do something.'
-    },
-    'de': {
-        working: 'Arbeiten',
-        resting: 'Pause',
-        doWork: 'Arbeit erledigen',
-        takeBreak: 'Pause machen',
-        start: 'Start',
-        pause: 'Pause',
-        reset: 'Zurücksetzen',
-        restNotificationTitle: 'Entspannen Sie sich',
-        restNotificationBody: 'Zeit für eine Pause~',
-        workNotificationTitle: 'Gut ausgeruht?',
-        workNotificationBody: "Lass uns etwas Arbeit erledigen",
-        takeBreakMessage: 'Mache eine Pause.',
-        timeToDoSomething: 'Zeit, etwas zu tun.'
+        timeToDoSomething: 'Time to do something.',
+        hide: "Hide",
+        show: "Show",
+        hidden: "Hidden",
+        shown: "Shown"
     },
     'pt-br': {
         working: 'Trabalhando',
@@ -58,10 +51,13 @@ const trans = {
         workNotificationTitle: 'Descansado?',
         workNotificationBody: "Mãos à massa! De volta ao trabalho.",
         takeBreakMessage: 'Faça uma pausa',
-        timeToDoSomething: 'De volta a ativa'
+        timeToDoSomething: 'De volta a ativa',
+        hide: "Ocultar",
+        show: "Mostrar",
+        hidden: "Oculto",
+        shown: "Mostrado"
     },
 };
-
 module.exports = {
     trans
 }
